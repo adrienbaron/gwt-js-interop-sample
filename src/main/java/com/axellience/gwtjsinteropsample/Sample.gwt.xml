@@ -1,0 +1,9 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+		"http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module rename-to="Sample">
+	<inherits name="com.google.gwt.core.Core"/>
+	<inherits name="elemental2.core.Core"/>
+	<inherits name="elemental2.dom.Dom"/>
+
+	<entry-point class='com.axellience.gwtjsinteropsample.client.Main'/>
+</module>

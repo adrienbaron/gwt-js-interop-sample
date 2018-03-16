@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>GWT Js Interop Sample</title>
+
+    <script type="text/javascript"
+            language="javascript"
+            src="Sample/Sample.nocache.js"></script>
+</head>
+
+<body>
+
+<script>
+    function onGWTReady() {
+    	var parent = new com.axellience.gwtjsinteropsample.client.Parent();
+
+        var divElement = document.createElement("div");
+        divElement.innerHTML += "<br/><br/><b>From JS</b><br/><br/>";
+		divElement.innerHTML += "Parent property: " + parent.parentName + "<br/>";
+
+		document.body.appendChild(divElement);
+	}
+</script>
+</body>
+</html>
